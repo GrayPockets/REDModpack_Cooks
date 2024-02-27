@@ -2,12 +2,12 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>[COLOR:184,134,11,255]GrayPockets[ENDCOLOR] - R.E.D. Modpack - Fixes</Name>
+    <Name>[COLOR:184,134,11,255]GrayPockets[ENDCOLOR] - R.E.D. Modpack - Cooks</Name>
     <Guid>25577990-96cb-4892-b517-980e0720e62c</Guid>
     <ProjectGuid>0f0d3aea-3f8c-49fd-a8b0-0d75d7132f97</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>Fixes for R.E.D Total War Unified Modpack and R.E.D. for Gathering Storm DLC</Teaser>
-    <Description>This mod fixes several items in "R.E.D Total War Unified Modpack" and "R.E.D. for Gathering Storm DLC"[NEWLINE][NEWLINE][ICON_BULLET] Rock Bands no longer have duplicated animations[NEWLINE][NEWLINE]Mod Support[NEWLINE][ICON_BULLET] R.E.D Total War Unified Modpack[NEWLINE][ICON_BULLET] R.E.D. for Gathering Storm DLC</Description>
+    <Teaser>Cooks for R.E.D Total War Unified Modpack and R.E.D. for Gathering Storm DLC</Teaser>
+    <Description>This mod cooks several items in "R.E.D Total War Unified Modpack" and "R.E.D. for Gathering Storm DLC"[NEWLINE][NEWLINE][ICON_BULLET] Rock Bands no longer have duplicated animations[NEWLINE][NEWLINE]Mod Support[NEWLINE][ICON_BULLET] R.E.D Total War Unified Modpack[NEWLINE][ICON_BULLET] R.E.D. for Gathering Storm DLC</Description>
     <Authors>GrayPockets</Authors>
     <SpecialThanks>Gedemon,GeloDGreat</SpecialThanks>
     <AffectsSavedGames>false</AffectsSavedGames>
@@ -15,9 +15,9 @@
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
-    <AssemblyName>GrayPockets.REDModpack.Fixes</AssemblyName>
-    <RootNamespace>GrayPockets.REDModpack.Fixes</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Art_REDModpackFixes_REDTotalWarUnifiedModpack"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>ExpInUse XP2</Criteria><Criteria>ModInUse R.E.D Total War Unified Modpack</Criteria><File>REDModpackUnified.dep</File></UpdateArt><UpdateArt id="Art_REDModpackFixes_REDModpack"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>ModInUse R.E.D. Modpack XP2</Criteria><File>REDModpack.dep</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <AssemblyName>GrayPockets.REDModpack.Cooks</AssemblyName>
+    <RootNamespace>GrayPockets.REDModpack.Cooks</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Art_REDModpackCooks_REDTotalWarUnifiedModpack"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>ExpInUse XP2</Criteria><Criteria>ModInUse R.E.D Total War Unified Modpack</Criteria><File>REDModpackUnified.dep</File></UpdateArt><UpdateArt id="Art_REDModpackCooks_REDModpack"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>ModInUse R.E.D. Modpack XP2</Criteria><File>REDModpack.dep</File></UpdateArt></InGameActions>]]></InGameActionData>
     <AssociationData><![CDATA[<Associations>
   <Reference type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
   <Reference type="Mod" title="R.E.D Total War Unified Modpack" id="41be36e2-a330-4c87-b8ad-27d18e918997" />
@@ -44,10 +44,10 @@
     <Content Include="REDModpackUnified.dep">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="R.E.D. Modpack Fixes.png">
+    <Content Include="R.E.D. Modpack Cooks.png">
       <SubType>Content</SubType>
     </Content>
-    <None Include="R.E.D. Modpack Fixes.xcf">
+    <None Include="R.E.D. Modpack Cooks.xcf">
       <SubType>Content</SubType>
     </None>
     <None Include="README.md">

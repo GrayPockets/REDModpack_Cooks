@@ -1,8 +1,8 @@
-# GrayPockets - R.E.D. Modpack - Fixes
+# GrayPockets - R.E.D. Modpack - Cooks
 
 ## Description
 
-This mod fixes several items in "R.E.D Total War Unified Modpack" and "R.E.D. for Gathering Storm DLC"
+This mod cooks several items in "R.E.D Total War Unified Modpack" and "R.E.D. for Gathering Storm DLC"
 
 * Rock Bands no longer have duplicated animations
 
